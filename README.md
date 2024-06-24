@@ -1,5 +1,3 @@
-Claro, aquí tienes el README con correcciones en la ortografía y gramática, además de mejoras en el formato Markdown:
-
 # Prueba Técnica
 
 ¡Hola!
