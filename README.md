@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Este proyecto utiliza la API pública de Marvel para proporcionar datos sobre personajes, cómics y más. Puedes encontrar más información sobre esta API en [Marvel Developer Portal](https://developer.marvel.com).
+Este proyecto utiliza la API pública de Marvel para proporcionar datos sobre personajes, cómics y más. Se Puede encontrar más información sobre esta API en [Marvel Developer Portal](https://developer.marvel.com).
 
 ## Stack Tecnológico
 
