@@ -29,3 +29,7 @@ En otra terminal, navega a la raíz de la carpeta `Frontend`, y ejecuta el coman
 
 No es necesario configurar ninguna variable de entorno ni nada adicional. Quiero aclarar que estoy 100% consciente de que lo ideal sería poner las URLs en un archivo `.env` junto con las API keys de la API pública de Marvel, pero decidí hacerlo de esta manera para que fuera más fácil de probar y ejecutar localmente.
 
+## Otra aclaración
+
+Los datos de los personakes que inclui son relativamente pocos, lo que pasa esque el endpoint que carga datos de la API ("http://localhost:3000/api/characters/load-characters-from-api"), lo he corrido manualmente con solicitudes http usando la extension thunder de VS code y estos datos los he filtrado, por ejemplo de entre 100 personajes solo guarde en mi base de datos los que tuvieran una foto disponible, que su descripcion no fuera vacía o nula son cosas que tome en cuenta para dejar solo datos que yo considero de mejor calidad para mostrar en el cliente (Fronted).
+
