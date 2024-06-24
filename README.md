@@ -1,10 +1,12 @@
-# Proyecto
+Claro, aquí tienes el README con correcciones en la ortografía y gramática, además de mejoras en el formato Markdown:
+
+# Prueba Técnica
 
 ¡Hola!
 
 ## Descripción
 
-Este proyecto utiliza la API pública de Marvel para proporcionar datos sobre personajes, cómics, y más. Puedes encontrar más información sobre esta API en [Marvel Developer Portal](https://developer.marvel.com).
+Este proyecto utiliza la API pública de Marvel para proporcionar datos sobre personajes, cómics y más. Puedes encontrar más información sobre esta API en [Marvel Developer Portal](https://developer.marvel.com).
 
 ## Stack Tecnológico
 
@@ -19,13 +21,13 @@ El proyecto está construido utilizando las siguientes tecnologías:
 
 ## Backend
 
-nos vamos hacía -> con el comando cd Backend por ejemplo y estando ahi ejecutamos "npm install" para instalar las dependencias necesarias
-luego de esto con el comando "npm run start" ponemos en ejecucion el servidor, por la base de datos no hay que preocuparse porque en este proyecto se esta 
-usando un cluster de mongo en la nube, entonces de parte del backend eso sería todo 
+Primero, navega al directorio `/Backend` con el comando `cd Backend` y, estando ahí, ejecuta `npm install` para instalar las dependencias necesarias. Luego de esto, ejecuta el comando `npm run start` para poner en ejecución el servidor. No es necesario preocuparse por la base de datos, ya que en este proyecto se está utilizando un cluster de MongoDB en la nube. De parte del backend, eso sería todo.
 
-Fronted:
-Ahora nos vamos con otra terminal hacia la raiz de la carpeta Fronted, y ahi se ejecuta el comando "npm install", luego hay que levantarlo, usando el comando "npm run dev", si alguno de estos
-dos comandos da algún problema, si es posible (estar usando un sistema Unix/Linux) recomiendo usar "sudo" al inicio del comando.
+## Frontend
 
-Y listo, no hay que configurar ninguna variable de entorno ni nada, aunque quiero aclarar que estoy 100% conciente que lo ideal sería poner las urls en un .env junto con los Api key de la api publica de marvel
-pero decidí hacerlo así para que fuera más facíl de probar y levantar localmente.
+En otra terminal, navega a la raíz de la carpeta `Frontend`, y ejecuta el comando `npm install`. Luego, levanta el servidor usando el comando `npm run dev`. Si alguno de estos comandos presenta problemas y estás utilizando un sistema Unix/Linux, recomiendo usar `sudo` al inicio del comando.
+
+## Nota Adicional
+
+No es necesario configurar ninguna variable de entorno ni nada adicional. Quiero aclarar que estoy 100% consciente de que lo ideal sería poner las URLs en un archivo `.env` junto con las API keys de la API pública de Marvel, pero decidí hacerlo de esta manera para que fuera más fácil de probar y ejecutar localmente.
+
